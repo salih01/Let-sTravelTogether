@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		751626622924E359002D188E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751626612924E359002D188E /* AppDelegate.swift */; };
 		751626642924E359002D188E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751626632924E359002D188E /* SceneDelegate.swift */; };
-		751626662924E359002D188E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751626652924E359002D188E /* ViewController.swift */; };
 		751626692924E359002D188E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751626672924E359002D188E /* Main.storyboard */; };
 		7516266C2924E359002D188E /* LetsTravelTogether.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7516266A2924E359002D188E /* LetsTravelTogether.xcdatamodeld */; };
 		7516266E2924E35A002D188E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7516266D2924E35A002D188E /* Assets.xcassets */; };
 		751626712924E35A002D188E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7516266F2924E35A002D188E /* LaunchScreen.storyboard */; };
+		751626792924EC3D002D188E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751626782924EC3D002D188E /* TableViewController.swift */; };
+		7516267C2924ED9C002D188E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7516267B2924ED9C002D188E /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7516265E2924E359002D188E /* LetsTravelTogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsTravelTogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		751626612924E359002D188E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		751626632924E359002D188E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		751626652924E359002D188E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		751626682924E359002D188E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7516266B2924E359002D188E /* LetsTravelTogether.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LetsTravelTogether.xcdatamodel; sourceTree = "<group>"; };
 		7516266D2924E35A002D188E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		751626702924E35A002D188E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		751626722924E35A002D188E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		751626782924EC3D002D188E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		7516267B2924ED9C002D188E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,9 @@
 		751626602924E359002D188E /* LetsTravelTogether */ = {
 			isa = PBXGroup;
 			children = (
+				7516267A2924EC43002D188E /* Controller */,
 				751626612924E359002D188E /* AppDelegate.swift */,
 				751626632924E359002D188E /* SceneDelegate.swift */,
-				751626652924E359002D188E /* ViewController.swift */,
 				751626672924E359002D188E /* Main.storyboard */,
 				7516266D2924E35A002D188E /* Assets.xcassets */,
 				7516266F2924E35A002D188E /* LaunchScreen.storyboard */,
@@ -68,6 +70,15 @@
 				7516266A2924E359002D188E /* LetsTravelTogether.xcdatamodeld */,
 			);
 			path = LetsTravelTogether;
+			sourceTree = "<group>";
+		};
+		7516267A2924EC43002D188E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				751626782924EC3D002D188E /* TableViewController.swift */,
+				7516267B2924ED9C002D188E /* MapViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				751626662924E359002D188E /* ViewController.swift in Sources */,
 				751626622924E359002D188E /* AppDelegate.swift in Sources */,
 				751626642924E359002D188E /* SceneDelegate.swift in Sources */,
+				751626792924EC3D002D188E /* TableViewController.swift in Sources */,
+				7516267C2924ED9C002D188E /* MapViewController.swift in Sources */,
 				7516266C2924E359002D188E /* LetsTravelTogether.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
