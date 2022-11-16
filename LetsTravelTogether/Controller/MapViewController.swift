@@ -22,7 +22,7 @@ extension MapViewController: MKMapViewDelegate,CLLocationManagerDelegate{
         chooseLongitude = location.longitude
         
         //Zoom seviyesi
-        let span = MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
+        let span = MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
         
         let region = MKCoordinateRegion(center: location, span: span)
         mapView.setRegion(region, animated: true)
